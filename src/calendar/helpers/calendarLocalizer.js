@@ -14,15 +14,3 @@ export const localizer = dateFnsLocalizer({
   getDay,
   locales,
 });
-
-export const eventStyleGetter = (event, start, end, isSelected) => {
-  const style = {
-    backgroundColor: "#347CF7",
-    borderRadius: "10px",
-    opacity: 0.8,
-    color: "white",
-  };
-  return {
-    style,
-  };
-};
